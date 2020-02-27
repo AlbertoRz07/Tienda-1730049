@@ -1,0 +1,134 @@
+/* Individual effects */
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+figure.effect-julia {
+  background: @accent;
+}
+
+figure.effect-julia img {
+  -webkit-transition: opacity 1s, -webkit-transform 1s;
+  transition: opacity 1s, transform 1s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  @media screen and (max-width: 767px){
+    width: 100%;
+  }
+}
+
+figure.effect-julia figcaption {
+  text-align: left;
+}
+
+figure.effect-julia h2 {
+  position: relative;
+  padding: 0.5em 0;
+  font-weight: 450;
+  text-transform: none;
+}
+
+figure.effect-julia p {
+  display: inline-block;
+  margin: 0 0 0.25em;
+  padding: 0.4em 1em;
+  background: rgba(255,255,255,0.9);
+  color: #2f3238;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 75%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-360px,0,0);
+  transform: translate3d(-360px,0,0);
+}
+
+figure.effect-julia p:first-child {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+figure.effect-julia p:nth-of-type(2) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+figure.effect-julia p:nth-of-type(3) {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+@media screen and (min-width: 767px) {
+
+figure.effect-julia:hover p:first-child {
+  //-webkit-transition-delay: 0s;
+ // transition-delay: 0s;
+}
+
+figure.effect-julia:hover p:nth-of-type(2) {
+ // -webkit-transition-delay: 0.05s;
+ // transition-delay: 0.05s;
+}
+
+figure.effect-julia:hover p:nth-of-type(3) {
+ // -webkit-transition-delay: 0.1s;
+ // transition-delay: 0.1s;
+}
+
+figure.effect-julia:hover img {
+  opacity: 0.4;
+  -webkit-transform: scale3d(1.1,1.1,1);
+  transform: scale3d(1.1,1.1,1);
+}
+}
+
+figure.effect-julia p {
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+/* Media queries */
+@media screen and (max-width: 981px) {
+  .insight{
+    padding: 0px;
+    margin: 0px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+  figure.effect-julia p {
+   display: none;
+  }
+  .content {
+   // padding: 0 10px;
+    text-align: center !important;
+  }
+  .grid figure {
+    display: inline-block !important;
+    float: none !important;
+    margin: 10px auto !important;
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 350px) {
+  .grid figure h2 {
+    font-size: 18px;
+  }
+
+}
+@media screen and (min-width: 351px) and (max-width: 981px) {
+  .grid figure h2 {
+    font-size: 24px;
+  }
+
+}
+@media screen and (max-width: 767px){
+  figcaption h2{
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}

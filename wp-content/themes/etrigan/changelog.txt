@@ -1,0 +1,119 @@
+ChangeLog
+=========
+
+Version 0.9
+
+	i) Initial Release.
+	
+Version 0.91
+
+	i) Added Minified Versions of js files
+	ii)	Deleted hidden files
+	iii) Removed Theme Prefixes for External scripts while enqueing
+	iv) Replaced the_title with the_title_attribute function for attrs.
+	v) Removed the Archive Description and Title Functions.
+	vi) Added Prefixes for Theme Defined Classes/Functions/Filters.
+	vii) Proper Sanitization for Custom CSS
+	viii) Other minor changes.
+	
+Version 0.92
+
+	i) Fixed Default Menu issues.	
+	
+Version 0.93
+
+	i) Improved Custom CSS Rendering.
+	ii) Fixed A Few Translation issues.
+	iii) Restricted Max slides to 3.
+	iv) Other few Bug fixes.	
+	
+Version 0.94
+
+	i) Removed Redundant functions.	
+	ii) And few other minor changes.
+
+Version 1.0
+
+	i) WooCommerce Star Ratings fixed.
+	ii) Header img overlap fixed.
+	iii) Added Pro Link.	
+	iv) Removed Duplicate Section from Customizer
+	
+Version 1.0.1
+
+	i) Fixed Skins not Working Properly.
+	ii) Added a New Skin - Organge & Red.	
+	
+Version 1.0.1.1
+
+	i) Fixed a Bug which caused infinite overflow(scroll) on Firefox Browsers.
+	
+Version 1.0.1.2
+
+	i) Loaded Admin Styles Properly, using the right hook.
+	ii) Escaped Fonts while Enqueuing	
+	
+Version 1.0.1.3
+
+	i) Fixed Comment Readability Issues, and extra space b/w author and comment	
+	ii) Search bar now looks more similar to the current skin
+	
+Version 1.0.1.4
+
+	i) Fixed Theme Tags
+	ii) Strip Tags for Custom CSS	
+	
+Version 1.0.1.5
+
+	i) Few i18n fixes.
+	ii) Slider fixed for front page.	
+	
+Version 1.0.1.6
+
+	i) Changed Footer Link to nofollow
+	
+Version 1.0.2
+
+	i) Fixed Display of Related Products on iPhone	
+	
+Version 1.0.3
+
+	i) Removed Duplicate Loading of Fonts	
+	
+Version 1.0.4
+
+	i) Fixed WooCOmmerce 3.0 Issues
+
+Version 1.0.5
+
+    i) File structure switched to new framework.
+    ii) Added 4 new socail icons style.
+    iii) Added new contact page template.
+    iv) Added typography option for post/page and site tile/description.
+    v) Added new featured posts showcase.
+    vi) Added static menu.
+    vii) Added 2 new skins.
+    viii) Added full page template.
+    ix) Added header image option.
+
+Version 1.0.6
+
+    i) Fixed Main Slider issues
+
+Version 1.0.7
+
+    i) Slider Bug fixed on mobile screens.
+    ii) Social icons minor bug fixed.
+    iii) Add Custom logo.
+    iv) Etrigan layout bug fixed.
+    v) Custom showcase bug fixed.
+    vi) Menu description minor bug fixed.
+    vii) Increase Theme Performance
+
+Version 1.0.8
+	
+	i) Google fonts minor bug fixed.
+	ii) Other minor bug fixed.
+
+
+
